@@ -1,0 +1,70 @@
+No. 	Peak Name 	Retention Time	Amount 	Est. Amt.	Rel.Area 	SI 	RSI 	Prob 	Peak Name Hit 2	Peak Name Hit 3	
+1  	Acetone	5,21	1563,8	1169,4	8,30	942	946	86,08	Oxirane, methyl-, (S)-	Propylene oxide
+5  	n-Hexane	6,38	47,6	35,2	0,25	926	935	70,85	Pentane, 3-methyl-	2-Ethyl-oxetane
+6  	Ethyl Acetate	6,61	276,7	206,5	1,47	938	938	92,07	CH3C(O)CH2CH2OH	Pentanoic acid, 3-methyl-4-oxo-
+8  	Cyclopentane, methyl-	6,98	16,8	12,2	0,09	878	887	43,52	Cyclobutane, ethyl-	1-Pentene, 2-methyl-
+9  	1-Butanol	7,70	457,7	n.a.	1,92	n.a.	n.a.	n.a.	Formic acid, butyl ester	2(3H)-Furanone, dihydro-3-methyl-
+11  	Methyl methacrylate	9,05	83,1	61,7	0,44	931	932	94,43	Cyclopropanecarboxylic acid, methyl ester	2-Butenoic acid, methyl ester, (E)-
+13  	Propylene Glycol	10,04	18,9	13,7	0,10	861	886	69,27	R-(-)-1,2-propanediol	(S)-(+)-1,2-Propanediol
+14  	Toluene-D8	11,06	106,9	106,9	0,76	0	0	0,00	Cyclohexanecarboxylic acid, 1-amino-	Ethyl 1-methylpipecolinate
+15  	Toluene	11,23	3091,2	n.a.	16,42	n.a.	n.a.	n.a.	1,3,5-Cycloheptatriene	Spiro[2,4]hepta-4,6-diene
+17  	Acetic acid, butyl ester	13,16	600,5	448,8	3,19	940	952	93,67	Isobutyl acetate	Acetic acid, hexyl ester
+19  	2-Propanol, 1-(2-propenyloxy)-	14,67	16,8	12,2	0,09	819	821	75,71	Ethanol, 2-[2-(2-propenyloxy)ethoxy]-	Ethanol, 2-(2-propenyloxy)-
+20  	Ethylbenzene	15,58	303,1	n.a.	1,78	n.a.	n.a.	n.a.	Benzene, 1,3-dimethyl-	o-Xylene
+21  	1-Methoxy-2-propyl acetate	15,69	18,3	13,3	0,09	798	901	81,54	2-Ethoxyethyl acetate	Ethanol, 2-(2-ethoxyethoxy)-, acetate
+22  	Benzene, 1,3-dimethyl-	16,03	920,6	688,3	4,89	959	959	44,39	o-Xylene	p-Xylene
+23  	Benzene, 1,3-dimethyl-	16,10	340,9	n.a.	2,05	n.a.	n.a.	n.a.	o-Xylene	p-Xylene
+24  	Benzene, 1,3-dimethyl-	17,21	296,3	n.a.	1,74	n.a.	n.a.	n.a.	o-Xylene	p-Xylene
+26  	Benzene, 1-chloro-4-methyl-	20,69	699,5	522,9	3,71	936	938	42,39	Benzene, 1-chloro-3-methyl-	Benzene, 1-chloro-2-methyl-
+27  	Benzaldehyde	20,87	27,2	20,0	0,14	874	930	64,81	Acetophenone, 2-chloro-	Phenylglyoxal
+28  	Cyclotetrasiloxane, octamethyl-	21,64	21,6	15,8	0,11	867	898	58,66	trisiloxane, 1,1,1,5,5,5-hexamethyl-3-[(trimethylsilyl)oxy]-	2,6-Dihydroxyacetophenone, 2TMS derivative
+30  	2-Hydroxyethyl methacrylate	23,11	27,0	19,8	0,14	891	897	75,28	2-Propenoic acid, 2-methyl-, propyl ester	1-Octen-4-ol
+31  	2-Propanol, 1,1'-oxybis-	23,49	45,9	33,9	0,24	839	842	86,47	2-Propanol, 1-methoxy-2-methyl-	Ethanol, 2-[2-(ethenyloxy)ethoxy]-
+33  	Triethylenediamine	23,57	224,8	167,7	1,19	876	890	82,16	1,4-Cyclohexanedione	Aziridine, 2-tert-butyl-1,3-dimethyl-, trans-
+34  	1-Hexanol, 2-ethyl-	23,89	22,6	16,5	0,12	895	898	58,62	2-Ethyl-1-hexanol	2-Propyl-1-pentanol
+35  	Benzyl alcohol	24,21	373,9	279,3	1,98	945	947	75,00	L-Arginine, N2-[(phenylmethoxy)carbonyl]-	N-Cbz-glycylglycine p-nitrophenyl ester
+36  	Benzenemethanamine, N,N-dimethyl-	24,53	14,2	10,2	0,07	762	826	69,79	Trimethylbenzylammonium chloride	Benzenemethanaminium, N,N-dimethyl-N-(phenylmethyl)-, chloride
+37  	Benzene, (ethoxymethyl)-	25,30	17,1	12,4	0,09	875	889	51,01	Benzene, 1,1'-[oxybis(methylene)]bis-	Benzene, (butoxymethyl)-
+39  	Nonanal	27,09	33,5	24,6	0,17	869	876	62,41	2-Nonen-1-ol	2-Nonen-1-ol, (E)-
+40  	Pentanedioic acid, dimethyl ester	28,13	29,6	21,8	0,15	868	890	91,65	Butanedioic acid, methyl-, dimethyl ester	Pentanedioic acid, ethyl methyl ester
+41  	1-Propanol, 2,2'-oxybis-	28,80	56,4	41,8	0,30	777	795	18,57	2-Propanol, 1-(2-methoxy-1-methylethoxy)-	2-Propanol, 1-(2-butoxy-1-methylethoxy)-
+42  	2-Propanol, 1-(2-butoxy-1-methylethoxy)-	28,93	83,4	62,0	0,44	780	783	18,08	1-Propanol, 2,2'-oxybis-	2-Propanol, 1-(2-methoxy-1-methylethoxy)-
+45  	1,3-Propanediol, 2-methyl-2-phenyl-	30,32	15,6	11,3	0,08	733	754	11,17	Benzenepropanoic acid, 3-phenylpropyl ester	Benzoic acid, 3,5-dimethyl-, (2,4-dimethylphenyl)methyl ester
+46  	Dodecane	30,55	17,7	12,8	0,09	922	925	32,41	Tridecane	Tetradecane
+47  	Decanal	30,75	65,9	48,9	0,35	870	873	40,52	2-Decen-1-ol	Undecanal
+48  	2-Propenoic acid, 2-methyl-, cyclohexyl ester	30,79	99,6	74,1	0,53	871	872	81,75	2-Butenoic acid, cyclohexyl ester	2-Butenoic acid, 3-hexenyl ester, (E,Z)-
+49  	Ethanol, 2-phenoxy-	31,27	25,11	18,37	0,13	883	896	84,18	Carbamic acid, butylmethyl-, phenyl ester	Benzene, propoxy-
+51  	2-Propenoic acid, 2-methyl-, octyl ester	33,79	2939,68	2198,70	15,61	922	924	74,15	2-Ethylhexyl methacrylate	Octane, 4-chloro-
+52  	2-Propanol, 1,1'-[(1-methyl-1,2-ethanediyl)bis(oxy)]bis-	33,92	206,82	154,31	1,10	776	827	33,70	1-Propanol, 2-(2-hydroxypropoxy)-	1-Propanol, 2,2'-oxybis-
+53  	Pentadecane	34,28	12,19	8,71	0,06	762	801	6,49	Dodecane, 2,6,11-trimethyl-	Hexadecane
+54  	Benzoic acid, 2,5-dimethyl-, (2,5-dimethylphenyl)methyl ester	35,27	22,70	16,57	0,12	725	728	12,19	Benzoic acid, 3,5-dimethyl-, (2,4-dimethylphenyl)methyl ester	Benzenepropanoic acid, 3-phenylpropyl ester
+55  	Pentadecane	36,17	23,47	17,15	0,12	887	890	12,46	Tetradecane	Dodecane
+57  	Propanol, [(butoxymethylethoxy)methylethoxy]-	36,80	16,50	11,93	0,08	784	785	25,05	4,8,12,16-tetraoxaeicosan-1-ol	2-Propanol, 1-[2-(2-methoxy-1-methylethoxy)-1-methylethoxy]-
+58  	2-Propanol, 1-[2-(2-methoxy-1-methylethoxy)-1-methylethoxy]-	36,90	55,55	41,15	0,29	803	811	30,43	4,8,12,16-tetraoxaeicosan-1-ol	Propanol, [(butoxymethylethoxy)methylethoxy]-
+59  	Propanol, [(butoxymethylethoxy)methylethoxy]-	37,00	38,59	28,46	0,20	787	789	26,41	2-Propanol, 1-[2-(2-methoxy-1-methylethoxy)-1-methylethoxy]-	2-Propanol, 1-[1-methyl-2-(2-propenyloxy)ethoxy]-
+61  	Silane, trimethoxy[3-(oxiranylmethoxy)propyl]-	37,17	159,79	119,13	0,85	827	838	89,30	Silane, trimethoxy[2-(7-oxabicyclo[4.1.0]hept-3-yl)ethyl]-	Trimethoxyvinylsilane
+62  	4-(1-Hydroperoxy-2,2-dimethyl-6-methylene-cyclohexyl)-pent-3-en-2-one	37,46	21,21	15,46	0,11	679	692	18,63	5-Methoxy-2,2,6-trimethyl-1-(3-methyl-buta-1,3-dienyl)-7-oxa-bicyclo[4.1.0]heptane	2,5-cyclohexadien-1-one, 2,6-bis(1,1-dimethylethyl)-4-hydroxy-4-methyl-
+65  	2(3H)-Naphthalenone, 4,4a,5,6,7,8-hexahydro-4a,5-dimethyl-3-(1-methylethylidene)-, (4ar-cis)-	37,79	28,25	20,73	0,15	721	732	9,99	(E)-3-((4S,7R,7aR)-3,7-Dimethyl-2,4,5,6,7,7a-hexahydro-1H-inden-4-yl)-2-methylacrylaldehyde	(1aR,7R,7aR,7bS)-(+)-1a,2,3,5,6,7,7a,7b-Octahydro-1,1,7,7a-tetramethyl-1H-cyclopropa[a]naphthalen-3-one
+66  	Pentadecane	38,14	18,18	13,19	0,09	657	842	6,58	Hexadecane	Hexadecane, 1-chloro-
+67  	1-Tetradecanamine, N,N-dimethyl-	38,21	25,33	18,54	0,13	872	882	37,52	1-Dodecanamine, N,N-dimethyl-	1-Tridecanamine, N,N-dimethyl-
+68  	Butylated Hydroxytoluene	38,34	4440,86	3321,71	23,59	948	949	90,57	Phenol, 4,6-di(1,1-dimethylethyl)-2-methyl-	Phenol, 2,6-bis(1,1-dimethylethyl)-4-methyl-, methylcarbamate
+74  	2-Propanol, 1,1'-[(1-methyl-1,2-ethanediyl)bis(oxy)]bis-	39,62	37,89	27,93	0,20	867	878	70,16	2-Propanol, 1-[2-(2-methoxy-1-methylethoxy)-1-methylethoxy]-	4,8,12,16-tetraoxaeicosan-1-ol
+75  	2-Propanol, 1,1'-[(1-methyl-1,2-ethanediyl)bis(oxy)]bis-	39,70	47,65	35,24	0,25	829	869	60,44	2-Propanol, 1-[1-methyl-2-(2-propenyloxy)ethoxy]-	2-Propanol, 1-[2-(2-methoxy-1-methylethoxy)-1-methylethoxy]-
+76  	Hexadecane	39,79	47,11	34,84	0,25	823	882	11,83	Pentadecane	Eicosane
+77  	6-Pentadecanone	40,86	18,14	13,16	0,09	666	806	30,67	6-Tridecanone	6-Tetradecanone
+78  	Eicosane	41,20	25,72	18,84	0,13	743	829	5,95	Pentadecane	Hexadecane
+79  	1-Tetradecanamine, N,N-dimethyl-	41,27	48,34	35,75	0,25	908	921	63,29	3(N,N-Dimethylmyristylammonio)propanesulfonate	1-Decanamine, N,N-dimethyl-
+82  	Pentadecane	41,79	10,66	7,56	0,05	707	787	5,92	Hexadecane	Disulfide, di-tert-dodecyl
+83  	3,5-di-tert-Butyl-4-hydroxybenzaldehyde	42,16	11,20	7,97	0,06	783	837	75,87	2,3,5,6-Detetrahydrocyclohexanone, 2,6-di-t-butyl-4-hydroxymethylene-	Phenol, 2,6-bis(1,1-dimethylethyl)-4-ethyl-
+84  	Hexadecane	42,45	10,40	7,37	0,05	850	871	15,63	Eicosane	Heptadecane
+87  	Methanone, [2-(1-methylethyl)phenyl]phenyl-	43,08	15,28	11,02	0,08	632	658	18,66	benzene, 1,1'-(1-methylethylidene)bis[4-methyl-	5,6,11,12-Tetrahydrodibenz(b,f)azocine
+88  	Dibutyl phthalate	43,24	11,45	8,16	0,06	869	900	45,03	1,2-Benzenedicarboxylic acid, bis(2-methylpropyl) ester	1,2-Benzenedicarboxylic acid, butyl 2-methylpropyl ester
+90  	Eicosane	43,59	10,22	7,24	0,05	761	833	7,62	Hexadecane	Nonadecane, 2-methyl-
+91  	Dimethyl palmitamine	43,65	89,20	66,32	0,47	891	894	31,54	1-Tetradecanamine, N,N-dimethyl-	Cetrimonium Bromide
+92  	Benzenepropanoic acid, 3,5-bis(1,1-dimethylethyl)-4-hydroxy-, methyl ester	44,01	13,89	9,98	0,07	709	754	90,11	Butylated Hydroxytoluene, TMS derivative	Androstane-3,17-diol, (3a,5a,17ß)-
+96  	Eicosane	44,63	13,57	9,74	0,07	810	867	13,37	Nonadecane, 2-methyl-	Octadecane, 2-methyl-
+97  	Hexadecane	45,63	11,61	8,27	0,06	806	865	11,54	Nonadecane, 2-methyl-	Octadecane, 2-methyl-
+98  	1-Heptadecanamine, N,N-dimethyl-	45,71	22,28	16,26	0,12	804	863	16,06	Stearyltrimethylammonium chloride	Eicosylamine, N,N-dimethyl-
+99  	Nonadecane, 9-methyl-	46,01	14,86	10,71	0,08	750	848	15,33	Eicosane	Eicosane, 10-methyl-
+100  	Squalene	57,39	30,86	22,68	0,16	783	862	53,83	1,6,10,14,18,22-Tetracosahexaen-3-ol, 2,6,10,15,19,23-hexamethyl-, (all-E)-(±)-	Supraene
+
