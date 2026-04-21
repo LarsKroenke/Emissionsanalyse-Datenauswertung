@@ -9,9 +9,9 @@ def ex2df(file):
 
 
 def concat_df_7(probe):
-    file_1= f'../data/2k-klebstoffe/component-tables/7-days/{probe}_1.txt'
-    file_2= f'../data/2k-klebstoffe/component-tables/7-days/{probe}_2.txt'
-    file_3= f'../data/2k-klebstoffe/component-tables/7-days/{probe}_3.txt'
+    file_1= f'2k-klebstoffe/component-tables/7-days/{probe}_1.txt'
+    file_2= f'2k-klebstoffe/component-tables/7-days/{probe}_2.txt'
+    file_3= f'2k-klebstoffe/component-tables/7-days/{probe}_3.txt'
 
     df_1 = ex2df(file_1)
     df_2 = ex2df(file_2)
@@ -20,9 +20,9 @@ def concat_df_7(probe):
     return pd.concat([df_1, df_2, df_3], ignore_index=True)
 
 def concat_df_28(probe):
-    file_1= f'../data/2k-klebstoffe/component-tables/28-days/{probe}_1.txt'
-    file_2= f'../data/2k-klebstoffe/component-tables/28-days/{probe}_2.txt'
-    file_3= f'../data/2k-klebstoffe/component-tables/28-days/{probe}_3.txt'
+    file_1= f'2k-klebstoffe/component-tables/28-days/{probe}_1.txt'
+    file_2= f'2k-klebstoffe/component-tables/28-days/{probe}_2.txt'
+    file_3= f'2k-klebstoffe/component-tables/28-days/{probe}_3.txt'
 
     df_1 = ex2df(file_1)
     df_2 = ex2df(file_2)
@@ -96,11 +96,11 @@ def chrom2df(file_path):
     return df
 
 def read_plot_data_7(kleber):
-    file_7 = f'../data/2k-klebstoffe/spectra/7-days/{kleber}.txt'
+    file_7 = f'2k-klebstoffe/spectra/7-days/{kleber}.txt'
     return chrom2df(file_7)
 
 def read_plot_data_28(kleber):
-    file_28 = f'../data/2k-klebstoffe/spectra/28-days/{kleber}.txt'
+    file_28 = f'2k-klebstoffe/spectra/28-days/{kleber}.txt'
     return chrom2df(file_28)
 
 
