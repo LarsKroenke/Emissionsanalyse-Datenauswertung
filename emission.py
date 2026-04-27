@@ -1,7 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
-import requests as re
 import numpy as np
 
 st.set_page_config(
