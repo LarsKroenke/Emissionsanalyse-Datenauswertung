@@ -12,6 +12,25 @@ st.set_page_config(
 
 
 def main():
+    # main page
+    # st.info("💡 Tipp: Wähle mehrere Jahre, um Trends besser zu erkennen.")
+    st.title("Auswertung der GC-MS Reports")
+    st.caption(
+        "Automatisierte Auswertung von Mehrfachbestimmungen aus Chromeleon reports der Einzelbestimmungen")
+
+    st.divider()
+    st.subheader("Chromatogramm")
+
+    # st.markdown("""
+    # Diese Anwendung ermöglicht die Analyse von Emissionsdaten nach:
+    # - Zeitraum
+    # - Fahrzeugtyp
+    # - Emissionsklasse
+    # """)
+
+    st.sidebar.caption(
+        "© 2026 – Emissionsanalyse | Erstellt mit Streamlit von Lars Krönke")
+
     option = st.sidebar.selectbox(
         'Analyten auswählen',
         ('pn7444', 'lord', '9075l', 'ep6055', 'dp6330')
@@ -62,12 +81,14 @@ def main():
 
     # Inhalte schreiben
     # st.header('Auswertung der Dreifachbestimmung')
-    st.write(plot)
-    st.write(
-        '7 Tage Messung (gruppiert nach Retentionszeit und übereinstimmendem Hit)')
+    # st.write(plot)
+    st.pyplot(plot, clear_figure=True)
+
+    st.divider()
+    st.subheader("📊 7 Tage – Gruppierte Peaks")
     st.write(df_stat)
-    st.write(
-        '28 Tage Messung (gruppiert nach Retentionszeit und übereinstimmendem Hit)')
+    st.divider()
+    st.subheader("📊 28 Tage – Gruppierte Peaks")
     st.write(df_stat_28)
 
 
@@ -214,7 +235,8 @@ def plot_spectra(x_7, y_7, x_28, y_28, on_7, on_28, slider, slider_y, df_stat, x
     #     num += 1
 
     if annotate & on_7:
-        window = 0.05  # adjust
+        window = 0.05  # 3 Sekunden
+        annotated_peaks = []
 
         x = np.asarray(x_7)
         y = np.asarray(y_7)
@@ -239,6 +261,11 @@ def plot_spectra(x_7, y_7, x_28, y_28, on_7, on_28, slider, slider_y, df_stat, x
             peak_time = local_x[idx]
             peak_intensity = local_y[idx]
 
+            if any(abs(peak_time - p) < window for p in annotated_peaks):
+                continue
+
+            annotated_peaks.append(peak_time)
+
             ax.annotate(
                 f'{i}',
                 xy=(peak_time, peak_intensity),
@@ -247,6 +274,7 @@ def plot_spectra(x_7, y_7, x_28, y_28, on_7, on_28, slider, slider_y, df_stat, x
                 ha='center',
                 fontsize=5
             )
+
     return fig
 
 
