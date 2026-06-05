@@ -133,7 +133,7 @@ def prepare_data(df_all, hit):
         .groupby([hit, "Retentionszeit"], dropna=False)
         .agg(
             n=("Amount", "count"),
-            mean=("Amount", "mean") / "Amount",
+            mean=("Amount", "mean"),
             td8=("Est. Amt.", "mean"),
             sx=("Amount", "std"),
             P=("Prob", "mean"),
