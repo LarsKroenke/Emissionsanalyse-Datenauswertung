@@ -133,7 +133,7 @@ def prepare_data(df_all, hit):
         .groupby([hit, "Retentionszeit"], dropna=False)
         .agg(
             n=("Amount", "count"),
-            mean=("Amount", "mean") + 1000,
+            mean=("Amount", "mean"),
             td8=("Est. Amt.", "mean"),
             sx=("Amount", "std"),
             P=("Prob", "mean"),
@@ -144,6 +144,9 @@ def prepare_data(df_all, hit):
         "mean", "td8", "sx", "P", "RSI"]].round(1)
     summary.rename(columns={'Peak Name': 'Komponente', 'Retentionszeit': 'Retentionszeit', 'mean': 'Toluol Äq.',
                    'sx': 'Standardabweichung', 'P': 'Probability', 'td8': 'int. Std. Äq.'}, inplace=True)
+
+    summary['stabw'] = summary['mean'] / summary['Toluol Äq.']
+    
     return summary.sort_values('Retentionszeit').reset_index()
 
 
