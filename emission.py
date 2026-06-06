@@ -145,7 +145,7 @@ def prepare_data(df_all, hit):
     summary.rename(columns={'Peak Name': 'Komponente', 'Retentionszeit': 'Retentionszeit', 'mean': 'Toluol Äq.',
                    'sx': 'Standardabweichung', 'P': 'Probability', 'td8': 'int. Std. Äq.'}, inplace=True)
 
-    summary['stabw'] = summary['Standardabweichung'] / summary['Toluol Äq.']
+    summary['stabw'] = (summary['Standardabweichung'] / summary['Toluol Äq.']) * 100
     
     return summary.sort_values('Retentionszeit').reset_index()
 
