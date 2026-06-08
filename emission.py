@@ -130,7 +130,7 @@ def prepare_data(df_all, hit):
 
     summary = (
         df_all
-        .groupby(["Retentionszeit"], dropna=False)
+        .groupby([hit, "Retentionszeit"], dropna=False)
         .agg(
             n=("Amount", "count"),
             mean=("Amount", "mean"),
